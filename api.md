@@ -10,5 +10,5 @@ Each of the [iDempiere micro](https://idempiere-micro.github.io/) microservices 
 ## REST
 REST is used to log in the user on the login endpoint `/session/{USERNAME}/login/{PASSWORD}`.
 
-##GraphQL
+## GraphQL
 GraphQL `POST`s can be executed agains the `/graphql` GraphQL endpoint. Each GraphQL call is wrapped in a transaction to ensure data consistency.
