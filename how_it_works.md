@@ -13,5 +13,7 @@ To run [iDempiere micro](https://idempiere-micro.github.io/) microservices Java 
 ## Database
 The [iDempiere micro](https://idempiere-micro.github.io/) microservices use the same database as [iDempiere](http://www.idempiere.org/). Since not only the same object-relational mapping engine is used, but also the same iDempiere business logic classes are shared between these two project, the data are stored exactly in the same way making them directly usable from the iDempiere User Interface.
 
+The Database JDBC URL is set in the `DATABASE_URL` environment variable e.g. like `jdbc:postgresql://localhost:5433/idempiere`.
+
 ## Web API
 Each of the [iDempiere micro](https://idempiere-micro.github.io/) microservices opens an HTTP endpoint allowing REST and GraphQL calls to be made.
