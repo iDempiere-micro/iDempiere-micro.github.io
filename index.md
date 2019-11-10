@@ -2,7 +2,7 @@
 
 When building a new business system there is a lot of stuff you can reuse. Most of the well-known libraries give you reuse on the technological level: logging, users, access control etc.
 
-We decided to raise the b()ar a little bit higher and give software developers a possibility to reuse business entities from one of the most advanced open source Enterprise Resource Planning (ERP) and Customer Relationship Management (CRM) software software - [iDempiere](http://www.idempiere.org/).
+We decided to raise the bar a little bit higher and give software developers a possibility to reuse business entities from one of the most advanced open source Enterprise Resource Planning (ERP) and Customer Relationship Management (CRM) software software - [iDempiere](http://www.idempiere.org/).
 
 Right now we are moving even further with rewriting some parts of iDempiere under a completely new project [erpjs](http://erpjs.eu/). If you are interested in [the headless serverless ERP and CRM for the cloud](http://erpjs.eu/), check the [erpjs GitHub page](https://github.com/iDempiere-micro/erpjs).
 
